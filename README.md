@@ -1,4 +1,5 @@
 # ASDeviceModel
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/Arup Saha/ASDeviceModel.svg?style=flat)](https://travis-ci.org/Arup Saha/ASDeviceModel)
 [![Version](https://img.shields.io/cocoapods/v/ASDeviceModel.svg?style=flat)](https://cocoapods.org/pods/ASDeviceModel)
@@ -27,3 +28,6 @@ Arup Saha, arups@zeta.tech
 ## License
 
 ASDeviceModel is available under the MIT license. See the LICENSE file for more info.
+=======
+Find the model of iOS/ iPad OS/ Watch OS device you are using - In Human Readable form!
+>>>>>>> 711801e1ff92fba0ec2b0e0bc3c14b5f7af6f996
