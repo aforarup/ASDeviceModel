@@ -7,8 +7,10 @@
 //
 
 #import "ASViewController.h"
+#import <ASDeviceModel/ASDeviceModel.h>
 
 @interface ASViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *modelName;
 
 @end
 
@@ -17,7 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.modelName.text = [ASDeviceModel deviceModelName];
 }
 
 - (void)didReceiveMemoryWarning
